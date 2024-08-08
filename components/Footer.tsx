@@ -1,54 +1,70 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import React from "react";
+import {
+  RxDiscordLogo,
+  RxGithubLogo,
+  RxInstagramLogo,
+  RxTwitterLogo,
+  RxLinkedinLogo,
+} from "react-icons/rx";
 
-import { socialMedia } from "@/data";
-import MagicButton from "./MagicButton";
+import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
-      {/* background grid */}
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
-          src="/footer-grid.svg"
-          alt="grid"
-          className="w-full h-full opacity-50 "
-        />
-      </div>
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
+      <div className="w-full flex flex-col items-center justify-center m-auto">
+        <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+            <div className="font-bold text-[16px]">Community</div>
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <FaYoutube />
+              <span className="text-[15px] ml-[6px]">Youtube</span>
+            </p>
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <RxGithubLogo />
+              <span className="text-[15px] ml-[6px]">Github</span>
+            </p>
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <RxDiscordLogo />
+              <span className="text-[15px] ml-[6px]">Discord</span>
+            </p>
+          </div>
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+            <div className="font-bold text-[16px]">Social Media</div>
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <FaYoutube />
+              <span className="text-[15px] ml-[6px]">Instagram</span>
+            </p>
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <RxGithubLogo />
+              <span className="text-[15px] ml-[6px]">Twitter</span>
+            </p>
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <RxDiscordLogo />
+              <span className="text-[15px] ml-[6px]">Linkedin</span>
+            </p>
+          </div>
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+            <div className="font-bold text-[16px]">About</div>
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <span className="text-[15px] ml-[6px]">Become Sponsor</span>
+            </p>
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <span className="text-[15px] ml-[6px]">Learning about me</span>
+            </p>
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <span className="text-[15px] ml-[6px]">
+                sunilkumarsaini6363@gmail.com
+              </span>
+            </p>
+          </div>
+        </div>
 
-      <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
-        </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
-        </p>
-        <a href="mailto:contact@jsmastery.pro">
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
-      </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Adrian Hajdin
-        </p>
-
-        <div className="flex items-center md:gap-3 gap-6">
-          {socialMedia.map((info) => (
-            <div
-              key={info.id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-            >
-              <img src={info.img} alt="icons" width={20} height={20} />
-            </div>
-          ))}
+        <div className="mb-[20px] text-[15px] text-center">
+          &copy; Sunil Kumar Saini. All rights reserved
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
