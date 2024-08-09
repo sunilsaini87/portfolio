@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Sunil Kumar Saini",
-  description: "",
+  description: "Portfolio",
 };
 
 export default function RootLayout({
@@ -19,8 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/sunil.png" sizes="any" />
+      </head>
       <body
-        className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
+        className={`${inter.className} bg-[#000000] overflow-y-scroll overflow-x-hidden`}
       >
         <StarsCanvas />
         <Nav />
