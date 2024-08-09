@@ -25,10 +25,12 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-[#000000] overflow-y-scroll overflow-x-hidden`}
       >
-        <StarsCanvas />
-        <Nav />
-        {children}
-        <Footer />
+        <div className="flex flex-col min-h-screen">
+          <StarsCanvas />
+          <Nav />
+          <main className="flex-grow">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
