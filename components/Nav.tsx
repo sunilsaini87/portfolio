@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { FaGithub, FaXTwitter } from "react-icons/fa6"; // Import the icons for GitHub and X.com
+import { FaGithub, FaXTwitter, FaLinkedin } from "react-icons/fa6"; // Import the icons for GitHub and X.com
 
 const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -75,6 +75,13 @@ const Nav = () => {
           >
             <FaXTwitter size={24} className="text-gray-300 hover:text-white" />
           </a>
+          <a
+            href="https://linkedin.com/in/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin size={24} className="text-gray-300 hover:text-white" />
+          </a>
         </div>
       </div>
 
@@ -94,6 +101,13 @@ const Nav = () => {
             rel="noopener noreferrer"
           >
             <FaXTwitter size={24} className="text-gray-300 hover:text-white" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sunil-kumar-saini-0349b3208/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin size={24} className="text-gray-300 hover:text-white" />
           </a>
         </div>
       )}
