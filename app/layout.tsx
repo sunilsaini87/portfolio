@@ -4,6 +4,7 @@ import "./globals.css";
 import StarsCanvas from "@/components/StarBackground";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import { ShootingStars } from "@/components/ui/shooting-stars";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ export default function RootLayout({
       >
         <div className="flex flex-col min-h-screen">
           <StarsCanvas />
+          <ShootingStars />
           <Nav />
           <main className="flex-grow">{children}</main>
           <Footer />
