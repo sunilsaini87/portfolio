@@ -64,9 +64,9 @@ const About = () => {
             <Image
               src="/12.svg"
               alt="work icons"
-              height={400}
-              width={400}
-              className="sm:h-[500px] sm:w-[500px] lg:h-[650px] lg:w-[650px] opacity-30"
+              height={500}
+              width={500}
+              className="sm:h-[300px] sm:w-[300px] lg:h-[500px] lg:w-[500px] opacity-30"
             />
           </motion.div>
         </motion.div>
