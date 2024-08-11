@@ -69,7 +69,7 @@ const Skills = () => {
               Operations
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Keep your company’s lights on with customizable, iterative, and
+              Keep your companys lights on with customizable, iterative, and
               structured workflows built for all efficient teams and individual.
             </p>
           </div>

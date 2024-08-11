@@ -54,14 +54,6 @@ const MyProjects = () => {
                     <FaLocationArrow className="ms-3" color="#fff" />
                   </a>
                 </div>
-                <div className="flex justify-center items-center">
-                  <a href={item.link} target="_blank" rel="noopener noreferrer">
-                    <p className="flex lg:text-xl md:text-xs text-sm text-blue-900">
-                      GitHub Link
-                    </p>
-                    <FaLocationArrow className="ms-3" color="#fff" />
-                  </a>
-                </div>
               </div>
             </PinContainer>
           </div>
