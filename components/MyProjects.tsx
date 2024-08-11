@@ -6,9 +6,9 @@ import { PinContainer } from "./ui/Pin";
 
 const MyProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading text-white text-center text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-zinc-300 to-zinc-700 py-20">
-        Recent Projects
+        Projects
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -22,7 +22,7 @@ const MyProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/11.jpg" alt="bgimg" />
+                  <img src="/bg.png" alt="bgimg" />
                 </div>
                 <img
                   src={item.img}
@@ -46,26 +46,20 @@ const MyProjects = () => {
               </p>
 
               <div className="flex items-center justify-between mt-7 mb-3">
-                <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
-                    <div
-                      key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
-                    >
-                      <img src={icon} alt={`icon-${index}`} className="p-2" />
-                    </div>
-                  ))}
-                </div>
-
                 <div className="flex justify-center items-center">
                   <a href={item.link} target="_blank" rel="noopener noreferrer">
-                    <p className="flex lg:text-xl md:text-xs text-sm text-purple-800">
+                    <p className="flex lg:text-xl md:text-xs text-sm text-blue-900">
                       Check Live Site
                     </p>
-                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                    <FaLocationArrow className="ms-3" color="#fff" />
+                  </a>
+                </div>
+                <div className="flex justify-center items-center">
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    <p className="flex lg:text-xl md:text-xs text-sm text-blue-900">
+                      GitHub Link
+                    </p>
+                    <FaLocationArrow className="ms-3" color="#fff" />
                   </a>
                 </div>
               </div>
