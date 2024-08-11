@@ -1,5 +1,4 @@
 import About from "@/components/About";
-// import { Features } from "@/components/Features";
 import MyProjects from "@/components/MyProjects";
 import MySkills from "@/components/MySkills";
 
@@ -10,7 +9,6 @@ export default function Home() {
         <About />
         <MySkills />
         <MyProjects />
-        {/* <Features /> */}
       </div>
     </main>
   );
