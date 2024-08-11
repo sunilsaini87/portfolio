@@ -6,7 +6,7 @@ import {
   Skill_data,
 } from "@/data/data";
 import React from "react";
-import SkillDataProvider from "../components/SkillDataProvider";
+import SkillDataProvider from "./DataProvider";
 import SkillText from "./Texts";
 
 const Skills = () => {

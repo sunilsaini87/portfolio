@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import Projects from "@/components/Projects";
+import MyProjects from "@/components/MyProjects";
 import MySkills from "@/components/MySkills";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex flex-col gap-10 md:gap-20 px-4 md:px-8 lg:px-16">
         <About />
         <MySkills />
-        <Projects />
+        <MyProjects />
       </div>
     </main>
   );

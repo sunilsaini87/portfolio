@@ -66,7 +66,7 @@ const About = () => {
               alt="work icons"
               height={500}
               width={500}
-              className="sm:h-[300px] sm:w-[300px] lg:h-[500px] lg:w-[500px] opacity-30"
+              className="sm:h-[300px] sm:w-[300px] lg:h-[500px] lg:w-[500px] opacity-30 hover:opacity-80 transition-all duration-300 hover:scale-110 "
             />
           </motion.div>
         </motion.div>
