@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Skills = () => {
   return (
@@ -8,25 +9,28 @@ const Skills = () => {
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Skills
           </h2>
-          <p className="text-gray-500 sm:text-xl dark:text-gray-400">
+          <p className="text-gray-500 sm:text-sm dark:text-gray-400">
             Combining frontend and backend expertise, I build scalable,
             user-focused web applications with technical precision and design
             insight.
           </p>
         </div>
 
-        <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+        <div className="space-y-8 md:grid md:grid-cols-1 lg:grid-cols-2 md:gap-12 md:space-y-0 border border-stone-600 m-auto p-10">
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Marketing
+              Programming Languages:
             </h3>
-            <p className="text-gray-500 dark:text-gray-400">
-              Plan it, create it, launch it. Collaborate seamlessly with all the
-              organization and hit your marketing goals every month with our
-              marketing plan.
-            </p>
+            <Image
+              src="/js.png"
+              alt="JavaScript"
+              width={60}
+              height={60}
+              className="rounded-lg bg-gray-100 dark:bg-gray-800 p-2 shadow-md"
+            />
           </div>
+
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">Legal</h3>
@@ -69,7 +73,7 @@ const Skills = () => {
               Operations
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Keep your companys lights on with customizable, iterative, and
+              Keep your company’s lights on with customizable, iterative, and
               structured workflows built for all efficient teams and individual.
             </p>
           </div>
