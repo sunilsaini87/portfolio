@@ -211,6 +211,20 @@ const Skills = () => {
                 className="rounded-lg p-2 shadow-md bg-slate-200"
               />
               <Image
+                src="/archlinux.svg"
+                alt="SQL"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/linux.svg"
+                alt="SQL"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
                 src="/vercel.svg"
                 alt="TypeScript"
                 width={60}
