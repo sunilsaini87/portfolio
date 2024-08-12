@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <section className="" id="skills">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-        <div className="max-w-screen-md mb-8 lg:mb-16 border border-stone-600 m-auto p-10 text-center">
+        <div className="max-w-screen-md mb-8 lg:mb-16 m-auto p-10 text-center">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Skills
           </h2>
@@ -22,60 +22,202 @@ const Skills = () => {
             <h3 className="mb-2 text-xl font-bold dark:text-white">
               Programming Languages:
             </h3>
-            <Image
-              src="/js.png"
-              alt="JavaScript"
-              width={60}
-              height={60}
-              className="rounded-lg bg-gray-100 dark:bg-gray-800 p-2 shadow-md"
-            />
+            <div className="flex flex-wrap gap-4">
+              <Image
+                src="/js.svg"
+                alt="JavaScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/cpp.svg"
+                alt="C++"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/sql.svg"
+                alt="SQL"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/typescript.svg"
+                alt="TypeScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+            </div>
           </div>
 
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">Legal</h3>
-            <p className="text-gray-500 dark:text-gray-400">
-              Protect your organization, devices and stay compliant with our
-              structured workflows and custom permissions made for you.
-            </p>
+            <h3 className="mb-2 text-xl font-bold dark:text-white">
+              Frameworks/Libraries:
+            </h3>
+            <div className="flex flex-wrap gap-4">
+              <Image
+                src="/express.svg"
+                alt="JavaScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md bg-slate-200"
+              />
+              <Image
+                src="/css-3.svg"
+                alt="C++"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/html.svg"
+                alt="SQL"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/tailwindcss.svg"
+                alt="TypeScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/nodejs.svg"
+                alt="TypeScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/bootstrap.svg"
+                alt="TypeScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/nextjs.svg"
+                alt="TypeScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+            </div>
+          </div>
+
+          <div>
+            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
+            <h3 className="mb-2 text-xl font-bold dark:text-white">
+              Databases:
+            </h3>
+            <div className="flex flex-wrap gap-4">
+              <Image
+                src="/mysql.svg"
+                alt="JavaScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md bg-slate-200"
+              />
+              <Image
+                src="/postgresql.svg"
+                alt="C++"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/redis.svg"
+                alt="SQL"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/mongodb.svg"
+                alt="TypeScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md bg-slate-200"
+              />
+              <Image
+                src="/prisma.svg"
+                alt="TypeScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md bg-slate-200"
+              />
+            </div>
           </div>
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Business Automation
+              Developer Tools:
             </h3>
-            <p className="text-gray-500 dark:text-gray-400">
-              Auto-assign tasks, send Slack messages, and much more. Now power
-              up with hundreds of new templates to help you get started.
-            </p>
-          </div>
-          <div>
-            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">Finance</h3>
-            <p className="text-gray-500 dark:text-gray-400">
-              Audit-proof software built for critical financial operations like
-              month-end close and quarterly budgeting.
-            </p>
-          </div>
-          <div>
-            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Enterprise Design
-            </h3>
-            <p className="text-gray-500 dark:text-gray-400">
-              Craft beautiful, delightful experiences for both marketing and
-              product with real cross-company collaboration.
-            </p>
-          </div>
-          <div>
-            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Operations
-            </h3>
-            <p className="text-gray-500 dark:text-gray-400">
-              Keep your company’s lights on with customizable, iterative, and
-              structured workflows built for all efficient teams and individual.
-            </p>
+            <div className="flex flex-wrap gap-4">
+              <Image
+                src="/git.svg"
+                alt="JavaScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/github.svg"
+                alt="C++"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/docker.svg"
+                alt="C++"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/postman.svg"
+                alt="C++"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/vs-code.svg"
+                alt="SQL"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/firebase.svg"
+                alt="SQL"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md"
+              />
+              <Image
+                src="/socketio.svg"
+                alt="SQL"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md bg-slate-200"
+              />
+              <Image
+                src="/vercel.svg"
+                alt="TypeScript"
+                width={60}
+                height={60}
+                className="rounded-lg p-2 shadow-md bg-slate-200"
+              />
+            </div>
           </div>
         </div>
       </div>
