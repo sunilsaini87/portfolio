@@ -29,14 +29,15 @@ function MyProjects() {
               DevPen
             </h5>
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              Project of code editor. The place is close to Barceloneta Beach
-              and bus stop just 2 min by walk and near to Naviglio where you can
-              enjoy the main night life in Barcelona.
+              Developed an online code editing platform allowing developers to
+              write and save their projects with a responsive and user-friendly
+              interface. Implemented features such as user authentication, and
+              real-time code editing and deployed the application on Vercel
             </p>
           </div>
           <div className="p-6 pt-0">
             <a
-              href="https://codepen.com"
+              href="https://dev-pen.vercel.app/"
               className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
               target="_blank"
               rel="noopener noreferrer"
@@ -57,15 +58,19 @@ function MyProjects() {
           </div>
           <div className="p-6">
             <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-              Project Two
+              WalkInHire (Job Portal Platform)
             </h5>
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              Description for the second project.
+              Designed and maintained a job portal platform to facilitate
+              walk-in interviews. • Implemented features for job listings,
+              employer dashboards, job seeker profiles and authentication•
+              Designed and developed responsive user interfaces using React,
+              Tailwind CSS and framer-motion.
             </p>
           </div>
           <div className="p-6 pt-0">
             <a
-              href="https://example.com"
+              href="https://walk-in-hire.netlify.app/"
               className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
               target="_blank"
               rel="noopener noreferrer"
@@ -86,15 +91,20 @@ function MyProjects() {
           </div>
           <div className="p-6">
             <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-              Project Three
+              QuickChat (Chat App)
             </h5>
             <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-              Description for the third project.
+              Developed a full stack real-time chat application enabling users
+              to communicate instantly via multiple chat rooms and direct
+              messages. • Designed the front end using React and Material UI,
+              ensuring a responsive and user-friendly interface. • Developed
+              backend services with Node.js and Express to handle user
+              authentication, messaging, and real-time updates via Socket.io.
             </p>
           </div>
           <div className="p-6 pt-0">
             <a
-              href="https://example.com"
+              href="https://quick-chat-frontend.vercel.app/"
               className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
               target="_blank"
               rel="noopener noreferrer"
