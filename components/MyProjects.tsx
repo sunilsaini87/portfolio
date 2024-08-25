@@ -20,8 +20,8 @@ function MyProjects() {
             <Image
               src="/devpen.png"
               alt="DevPen Image"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
             />
           </div>
           <div className="p-6">
@@ -52,8 +52,8 @@ function MyProjects() {
             <Image
               src="/walkinhire.png"
               alt="Project 2 Image"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
             />
           </div>
           <div className="p-6">
@@ -85,8 +85,8 @@ function MyProjects() {
             <Image
               src="/quickchat.png"
               alt="Project 3 Image"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
             />
           </div>
           <div className="p-6">

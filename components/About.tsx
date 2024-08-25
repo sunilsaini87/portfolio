@@ -33,7 +33,7 @@ const About = () => {
 
             <motion.div
               variants={slideInFromLeft(0.5)}
-              className="flex flex-col gap-6 mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold text-white max-w-full lg:max-w-[600px] w-auto h-auto"
+              className="flex flex-col gap-6 mt-6 text-2xl sm:text-3xl lg:text-4xl font-bold text-white max-w-full lg:max-w-[600px] w-auto h-auto"
             >
               <FlipWords
                 words={["I am", "Sunil Kumar Saini"]}
@@ -66,7 +66,7 @@ const About = () => {
               alt="work icons"
               height={500}
               width={500}
-              className="sm:h-[300px] sm:w-[300px] lg:h-[500px] lg:w-[500px] opacity-30 hover:opacity-80 transition-all duration-300 hover:scale-110 "
+              className="sm:h-[300px] sm:w-[300px] lg:h-[500px] lg:w-[500px] opacity-60 hover:opacity-90 transition-all duration-300 hover:scale-110 "
             />
           </motion.div>
         </motion.div>
