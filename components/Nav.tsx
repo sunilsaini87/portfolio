@@ -1,10 +1,9 @@
 "use client";
-
 import { useState } from "react";
 import Image from "next/image";
 import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { FaGithub, FaXTwitter, FaLinkedin } from "react-icons/fa6"; // Import the icons for GitHub and X.com
+import { FaGithub, FaXTwitter, FaLinkedin } from "react-icons/fa6";
 
 const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -92,7 +91,7 @@ const Nav = () => {
         </div>
       </div>
 
-      {navOpen && (
+      {/* {navOpen && (
         <div className="flex flex-row gap-5 mt-4 md:hidden justify-center">
           <a
             href="https://github.com/sunilsaini87"
@@ -116,7 +115,7 @@ const Nav = () => {
             <FaLinkedin size={24} className="text-gray-300 hover:text-white" />
           </a>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
