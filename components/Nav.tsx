@@ -56,6 +56,13 @@ const Nav = () => {
             <a href="#projects" className="cursor-pointer py-2 md:py-0">
               Projects
             </a>
+            <a
+              href="/resume.pdf"
+              download="Sunil_Kumar_Resume.pdf"
+              className="px-4 text-white rounded hover:text-gray-400"
+            >
+              Resume
+            </a>
           </div>
         </div>
 
