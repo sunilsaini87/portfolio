@@ -51,7 +51,8 @@ const About = () => {
             <motion.a
               variants={slideInFromLeft(1)}
               className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[150px] sm:max-w-[200px] mx-auto lg:mx-0"
-              href="/"
+              href="https://github.com/sunilsaini87"
+              target="_blank"
             >
               Learn More!
             </motion.a>
