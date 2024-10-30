@@ -69,14 +69,14 @@ const Nav = () => {
             <FaGithub size={24} className="text-gray-300 hover:text-white" />
           </a>
           <a
-            href="https://x.com/suniltanwar97"
+            href="https://x.com/sunilsaini_x"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaXTwitter size={24} className="text-gray-300 hover:text-white" />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/sunil-kumar-saini-0349b3208/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -85,18 +85,17 @@ const Nav = () => {
         </div>
       </div>
 
-      {/* Mobile Social Links */}
       {navOpen && (
         <div className="flex flex-row gap-5 mt-4 md:hidden justify-center">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/sunilsaini87"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub size={24} className="text-gray-300 hover:text-white" />
           </a>
           <a
-            href="https://x.com/yourusername"
+            href="https://x.com/sunilsaini_x"
             target="_blank"
             rel="noopener noreferrer"
           >
