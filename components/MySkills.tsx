@@ -24,7 +24,11 @@ const Skills = () => {
               Programming Languages:
             </h3>
             <div className="flex flex-wrap gap-4">
-              <Link href="https://www.javascript.com" target="_blank">
+              <Link
+                href="https://www.javascript.com"
+                target="_blank"
+                className="relative group block w-fit"
+              >
                 <Image
                   src="/js.svg"
                   alt="JavaScript"
@@ -32,8 +36,15 @@ const Skills = () => {
                   height={60}
                   className="rounded-lg p-2 shadow-md"
                 />
+                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                  JavaScript
+                </div>
               </Link>
-              <Link href="https://www.cplusplus.com" target="_blank">
+              <Link
+                href="https://www.cplusplus.com"
+                target="_blank"
+                className="relative group block w-fit"
+              >
                 <Image
                   src="/cpp.svg"
                   alt="C++"
@@ -41,6 +52,9 @@ const Skills = () => {
                   height={60}
                   className="rounded-lg p-2 shadow-md"
                 />
+                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                  C++
+                </div>
               </Link>
               <Link href="https://www.sql.org" target="_blank">
                 <Image
@@ -258,15 +272,23 @@ const Skills = () => {
                   className="rounded-lg p-2 shadow-md bg-slate-200"
                 />
               </Link>
-              <Link href="https://archlinux.org" target="_blank">
+              <Link href="https://vercel.com" target="_blank">
                 <Image
-                  src="/archlinux.svg"
-                  alt="Arch Linux"
+                  src="/vercel.svg"
+                  alt="Vercel"
                   width={60}
                   height={60}
-                  className="rounded-lg p-2 shadow-md"
+                  className="rounded-lg p-2 shadow-md bg-slate-200"
                 />
               </Link>
+            </div>
+          </div>
+          <div>
+            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
+            <h3 className="mb-2 text-xl font-bold dark:text-white">
+              Systems & Configurations:
+            </h3>
+            <div className="flex flex-wrap gap-4">
               <Link href="https://www.linux.org" target="_blank">
                 <Image
                   src="/linux.svg"
@@ -276,13 +298,79 @@ const Skills = () => {
                   className="rounded-lg p-2 shadow-md"
                 />
               </Link>
-              <Link href="https://vercel.com" target="_blank">
+              <Link href="https://archlinux.org" target="_blank">
                 <Image
-                  src="/vercel.svg"
-                  alt="Vercel"
+                  src="/archlinux.svg"
+                  alt="Arch Linux"
                   width={60}
                   height={60}
-                  className="rounded-lg p-2 shadow-md bg-slate-200"
+                  className="rounded-lg p-2 shadow-md"
+                />
+              </Link>
+              <Link href="https://ubuntu.com/" target="_blank">
+                <Image
+                  src="/ubuntu-svgrepo-com.svg"
+                  alt="Ubuntu"
+                  width={60}
+                  height={60}
+                  className="rounded-lg p-2 shadow-md"
+                />
+              </Link>
+              <Link
+                href="https://www.microsoft.com/en-in/windows?r=1"
+                target="_blank"
+              >
+                <Image
+                  src="/windows-svgrepo-com.svg"
+                  alt="Windows"
+                  width={60}
+                  height={60}
+                  className="rounded-lg p-2 shadow-md"
+                />
+              </Link>
+              <Link href="https://fedoraproject.org/" target="_blank">
+                <Image
+                  src="/fedora-svgrepo-com.svg"
+                  alt="Fedora"
+                  width={60}
+                  height={60}
+                  className="rounded-lg p-2 shadow-md"
+                />
+              </Link>
+              <Link href="https://archlinux.org" target="_blank">
+                <Image
+                  src="/archlinux.svg"
+                  alt="Arch Linux"
+                  width={60}
+                  height={60}
+                  className="rounded-lg p-2 shadow-md"
+                />
+              </Link>
+              <Link href="https://kubuntu.org/" target="_blank">
+                <Image
+                  src="/kubuntu-svgrepo-com.svg"
+                  alt="Kubuntu"
+                  width={60}
+                  height={60}
+                  className="rounded-lg p-2 shadow-md"
+                />
+              </Link>
+              <Link href="https://www.gnome.org/" target="_blank">
+                <Image
+                  src="/gnome.svg"
+                  alt="gnome DE"
+                  width={60}
+                  height={60}
+                  className="rounded-lg p-2 shadow-md"
+                />
+              </Link>
+              <Link href="https://kde.org/" target="_blank">
+                <Image
+                  src="/kde-svgrepo-com.svg"
+                  alt="KDE Plasma"
+                  width={60}
+                  height={60}
+                  className="rounded-lg p-2 shadow-md"
                 />
               </Link>
             </div>
