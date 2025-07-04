@@ -3,14 +3,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Spotlight } from "./ui/Spotlight";
-import {
-  slideInFromLeft,
-  slideInFromRight,
-  slideInFromTop,
-} from "@/utils/motion";
-import { SparklesIcon } from "@heroicons/react/24/solid";
+import { slideInFromLeft, slideInFromRight } from "@/utils/motion";
 import Image from "next/image";
-import { FlipWords } from "./ui/flip-words";
 
 const About = () => {
   return (
@@ -24,21 +18,15 @@ const About = () => {
           <Spotlight />
           <div className="h-full w-full flex flex-col gap-5 justify-center text-center lg:text-start m-auto">
             <motion.div
-              variants={slideInFromTop}
-              className="Welcome-box py-2 px-4 border border-[#34323a8b] opacity-[0.9] flex justify-center lg:justify-start"
-            >
-              <SparklesIcon className="text-[#292141] mr-2 h-5 w-5" />
-              <h1 className="Welcome-text text-sm">Welcome to My Portfolio</h1>
-            </motion.div>
-
-            <motion.div
               variants={slideInFromLeft(0.5)}
               className="flex flex-col gap-6 mt-6 text-2xl sm:text-3xl lg:text-4xl font-bold text-white max-w-full lg:max-w-[600px] w-auto h-auto"
             >
-              <FlipWords
-                words={["I am", "Sunil Kumar Saini"]}
-                className="text-transparent bg-clip-text bg-gradient-to-r from-zinc-600 to-white space-x-1"
-              />
+              <motion.p
+                variants={slideInFromLeft(0.8)}
+                className="sm:text-6xl text-gray-100 my-5 max-w-full lg:max-w-[600px]"
+              >
+                Hi, I&apos;m Sunil
+              </motion.p>
             </motion.div>
 
             <motion.p
