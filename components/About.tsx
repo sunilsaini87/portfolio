@@ -31,7 +31,7 @@ const About = () => {
 
             <motion.p
               variants={slideInFromLeft(0.8)}
-              className="text-base sm:text-lg text-gray-400 my-5 max-w-full lg:max-w-[600px]"
+              className="text-base sm:text-lg text-gray-400 my-2 max-w-full lg:max-w-[600px]"
             >
               A full stack web developer dedicated to creating dynamic and
               responsive web applications. Discover my work and skills.
