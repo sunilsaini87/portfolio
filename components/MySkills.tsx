@@ -337,15 +337,6 @@ const Skills = () => {
                   className="rounded-lg p-2 shadow-md"
                 />
               </Link>
-              <Link href="https://archlinux.org" target="_blank">
-                <Image
-                  src="/archlinux.svg"
-                  alt="Arch Linux"
-                  width={60}
-                  height={60}
-                  className="rounded-lg p-2 shadow-md"
-                />
-              </Link>
               <Link href="https://kubuntu.org/" target="_blank">
                 <Image
                   src="/kubuntu-svgrepo-com.svg"
