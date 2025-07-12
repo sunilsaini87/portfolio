@@ -15,7 +15,7 @@ const About = () => {
           animate="visible"
           className="flex flex-col lg:flex-row items-center justify-center px-5 sm:px-10 lg:px-20 mt-20 lg:mt-40 w-full z-[20]"
         >
-          <Spotlight />
+          {/* <Spotlight /> */}
           <div className="h-full w-full flex flex-col gap-5 justify-center text-center lg:text-start m-auto">
             <motion.div
               variants={slideInFromLeft(0.5)}
@@ -59,7 +59,7 @@ const About = () => {
             />
           </motion.div>
         </motion.div>
-        <Spotlight className="ml-96 mt-96 hidden lg:block" />
+        <Spotlight />
       </div>
     </>
   );
